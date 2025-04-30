@@ -12,7 +12,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Minimum sea-level pressure (MSLP)
   - Maximum wind gusts
   - Storm surge impacts
-- Compare observed storm tracks with forecast guidance from the GFS model to evaluate model performance.
+- Compare observed storm tracks with forecast guidance from the GFS and GEFS models to evaluate model performances.
 
 ## Milestone Summaries
 
@@ -29,14 +29,14 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
 ### Milestone 2: Forecast vs Observed Track Comparison
 - **Datasets Used**:
   - NOAA Best Track Data (`ianpreliminarytrack.csv`)
-  - GFS forecast data via the `Herbie` Python package.
+  - GFS and GEFS forecast data via the `Herbie` Python package.
 - **Methods**:
-  - Extracted GFS GRIB2 files and processed them using `xarray`.
+  - Extracted GFS and GEFS GRIB2 files and processed them using `xarray`.
   - Adjusted coordinate systems to match observed data.
   - Subset forecast data spatially over Florida.
 - **Accomplishments**:
   - Saved forecast fields as CSVs.
-  - Compared GFS-predicted sea-level pressure with observed values.
+  - Compared GFS and GEFS predicted sea-level pressure with observed values.
 
 ## Tools & Technologies
 - Python (pandas, xarray, matplotlib, cartopy)
