@@ -38,7 +38,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Saved forecast fields as CSVs.
   - Compared GFS track of Hurricane Ian (latitude and longitudes) to the observed track.
   - Compared GFS intensity track of Hurricane Ian to the observed intensity.
-  - Visualized the GFS' wind and pressure surrounding Hurricane Ian at landfall to the observed intensity.
+  - Visualized GFS wind and pressure fields surrounding Hurricane Ian at landfall to the observed intensity.
   - Compared GFS and GEFS predicted sea-level pressure with observed values, as well as the storm's center.
 
 ## Tools & Technologies
