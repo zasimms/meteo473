@@ -45,4 +45,4 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://choosealicense.com/licenses/mit/)
