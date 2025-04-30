@@ -23,8 +23,8 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Processed CSV data using `pandas`.
   - Created visualizations with `matplotlib` and `cartopy`.
 - **Accomplishments**:
-  - Mapped observed rainfall totals and wind gusts across Florida.
-  - Visualized temporal evolution of MSLP as the storm progressed inland.
+  - Graphed observed rainfall totals, storm surge, and wind gusts across Florida.
+  - Visualized the evolution of MSLP as the storm progressed inland.
 
 ### Milestone 2: Forecast vs Observed Track Comparison
 - **Datasets Used**:
