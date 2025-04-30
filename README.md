@@ -18,7 +18,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
 
 ### Milestone 1: Observed Surface Impacts
 - **Datasets Used**:
-  - Rainfall and surface observations from NWS and NHC.
+  - Rainfall and surface observations from National Hurricane Center (NHC).
 - **Methods**:
   - Processed CSV data using `pandas`.
   - Created visualizations with `matplotlib` and `cartopy`.
@@ -36,10 +36,12 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Subset forecast data spatially over Florida.
 - **Accomplishments**:
   - Saved forecast fields as CSVs.
+  - Compared GFS track of Hurricane Ian (latitude and longitudes) to the observed track.
   - Compared GFS and GEFS predicted sea-level pressure with observed values.
 
 ## Tools & Technologies
-- Python (pandas, xarray, matplotlib, cartopy)
+- Python (pandas, numpy, xarray, matplotlib, cartopy, datetime)
+- CSV files
 - Herbie (for downloading and processing GRIB2 model data)
 - Jupyter Notebooks
 
