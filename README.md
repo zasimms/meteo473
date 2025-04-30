@@ -18,7 +18,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
 
 ### Milestone 1: Observed Surface Impacts
 - **Datasets Used**:
-  - Rainfall and surface observations from National Hurricane Center [(NHC)](https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf).
+  - [Rainfall and surface observations](https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf) from National Hurricane Center (NHC).
 - **Methods**:
   - Processed CSV data using `pandas`.
   - Created visualizations with `matplotlib` and `cartopy`.
@@ -28,7 +28,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
 
 ### Milestone 2: Forecast vs Observed Track Comparison
 - **Datasets Used**:
-  - NOAA Best Track Data [(`ianpreliminarytrack.csv`)](https://noaa.hub.arcgis.com/datasets/20d971f4472e4037af0f260f6454e7ab/about?layer=1).
+  - [NOAA Best Track Data](https://noaa.hub.arcgis.com/datasets/20d971f4472e4037af0f260f6454e7ab/about?layer=1) (`ianpreliminarytrack.csv`).
   - GFS and GEFS forecast data via the `Herbie` Python package.
 - **Methods**:
   - Extracted GFS and GEFS GRIB2 files and processed them using `xarray`.
