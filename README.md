@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project is a two-part analysis of Hurricane Ian (2022), focusing on both observed impacts and model-based forecasts. The goal is to assess the storm’s intensity and evolution as it made landfall in Florida, using multiple datasets and visualizations.
+This project is a two-part analysis (three-part with additional plots in Milestone 3) of Hurricane Ian (2022), focusing on both observed impacts and model-based forecasts. The goal is to assess the storm’s intensity and evolution as it made landfall in Florida, using multiple datasets and visualizations.
 
 ### Objectives
 - Analyze the surface impacts of Hurricane Ian, including:
@@ -13,6 +13,7 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Maximum wind gusts
   - Storm surge impacts
 - Compare observed storm tracks with forecast guidance from the GFS and GEFS models to evaluate model performances.
+- Produce advanced visualization of forecast data
 
 ## Milestone Summaries
 
@@ -40,6 +41,19 @@ This project is a two-part analysis of Hurricane Ian (2022), focusing on both ob
   - Compared GFS intensity track of Hurricane Ian to the observed intensity.
   - Visualized GFS wind and pressure fields surrounding Hurricane Ian at landfall to the observed intensity.
   - Compared GFS and GEFS predicted sea-level pressure with observed values, as well as the storm's center.
+ 
+### Milestone 3: Advanced Visualization of Forecast Data
+- **Objectives**:
+  - Explore the ensemble spread and relationships in GEFS forecast variables using scatterplots.
+  - Visualize GFS model rainfall forecasts spatially.
+  - Map 10-meter wind speed and direction from the GFS model.
+- **Datasets & Tools**:
+  - GEFS and GFS model forecast data, accessed via the Herbie Python package.
+  - Data processing and visualization with `pandas`, `numpy`, `matplotlib`, and `cartopy`.
+- **Methods & Accomplishments**:
+  - Produced scatterplots to assess relationships and spread among ensemble members for Ian's track location.
+  - Created spatial maps of GFS-predicted rainfall over Florida during Ian’s landfall.
+  - Mapped 10-meter wind speed and direction from the GFS model.
 
 ## Tools & Technologies
 - Python (pandas, numpy, xarray, matplotlib, cartopy, datetime)
