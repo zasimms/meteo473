@@ -44,15 +44,15 @@ This project is a two-part analysis (three-part with additional plots in Milesto
  
 ### Milestone 3: Advanced Visualization of Forecast Data
 - **Objectives**:
-  - Explore the ensemble spread and relationships in GEFS forecast variables using scatterplots.
-  - Visualize GFS model rainfall forecasts spatially.
+  - Explore the ensemble spread and relationships in GEFS forecasts using scatterplots (visualize as spaghetti plots).
+  - Visualize GFS model rainfall forecast spatially.
   - Map 10-meter wind speed and direction from the GFS model.
 - **Datasets & Tools**:
   - GEFS and GFS model forecast data, accessed via the Herbie Python package.
   - Data processing and visualization with `pandas`, `numpy`, `matplotlib`, and `cartopy`.
 - **Methods & Accomplishments**:
   - Produced spaghetti plots to assess relationships and spread among ensemble members for Ian's track location.
-  - Created spatial maps of GFS-predicted rainfall over Florida during Ian’s landfall.
+  - Created spatial map of GFS-predicted rainfall over Florida during Ian’s landfall.
   - Mapped 10-meter wind speed and direction from the GFS model.
 
 ## Tools & Technologies
