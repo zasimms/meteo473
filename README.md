@@ -51,7 +51,7 @@ This project is a two-part analysis (three-part with additional plots in Milesto
   - GEFS and GFS model forecast data, accessed via the Herbie Python package.
   - Data processing and visualization with `pandas`, `numpy`, `matplotlib`, and `cartopy`.
 - **Methods & Accomplishments**:
-  - Produced scatterplots to assess relationships and spread among ensemble members for Ian's track location.
+  - Produced spaghetti plots to assess relationships and spread among ensemble members for Ian's track location.
   - Created spatial maps of GFS-predicted rainfall over Florida during Ian’s landfall.
   - Mapped 10-meter wind speed and direction from the GFS model.
 
